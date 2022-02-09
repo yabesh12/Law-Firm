@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-tw(=1*9=*7ko&%u08hw5td%qhsfc%7mc7d=sp#^105g%_*5kj*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'lawfirm.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'legal-firm.herokuapp.com']
 
 
 # Application definition
@@ -115,6 +115,8 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
+
+
 
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
